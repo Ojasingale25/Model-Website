@@ -1,0 +1,48 @@
+.container-fluid {
+	background-color: #E3DFDB;
+	height: 850px;
+}
+
+.eventBox {
+	background-color: white;
+	height: 350px;
+	float: left;
+	margin: 40px 40px 0px;
+	box-shadow: 3px 3px rgba(0,0,00,0.05);
+	border-radius: 2px;
+}
+
+.eventBox p {
+	color: #999999;
+	letter-spacing: 0.2	px;
+	position: relative;
+	top: 5px;
+}
+
+span {
+	margin-left: 130px;
+	font-size: 12px;
+	border: 1px solid #999999;
+	padding: 2px 5px;
+	border-radius: 5px;
+	letter-spacing: 1px;
+}
+
+p img {
+	position: relative;
+	top: -1px;
+}
+
+.eventBox img {
+	height: 150px;
+}
+
+center .fa {
+	margin: 5px 10px 0px!important;
+}
+center p {
+	margin: 0px;
+	font-size: 17px;
+	font-weight: lighter;
+	color: rgba(255, 255, 255, 0.5) !important;
+}

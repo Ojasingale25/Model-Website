@@ -1,0 +1,57 @@
+.contact p span {
+	letter-spacing: 1px;
+	font-size: 18px;
+	margin-left: 100px;
+	font-size: 15px;
+}
+.contact p {
+	font-size: 15px;
+}
+.containerContactUs {
+	height: 550px;
+	position: relative;
+	top: -80px;
+	border: 1px solid rgba(0, 0, 0, 0.2)!important;
+	border-radius: 10px;
+}
+
+#compulsory {
+	font-size: 12px;
+	color: red;
+}
+
+.contactUshead{
+	float: left;
+	font-size: 18px;
+	margin-left: 25px;
+	position: relative;
+	top: 5px;
+}
+
+input{
+	font-size: 15px !important;
+	padding: 5px;
+	position: relative;
+	top: 0px;
+	left: 170px;
+}
+textarea {
+	position: relative;
+	left: 135px;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+button {
+	border: 1px solid rgba(0, 0, 0, 0.2)!important;
+	margin-right: 100px !important;
+}
+center .fa {
+	margin: 5px 10px 0px!important;
+}
+center p {
+	margin: 0px;
+	font-size: 17px;
+	font-weight: lighter;
+	color: rgba(255, 255, 255, 0.5) !important;
+}

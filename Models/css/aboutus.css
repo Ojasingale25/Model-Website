@@ -1,0 +1,98 @@
+.container-fluid {
+	background-color: #E3DFDB !important;
+	height: 2000px;
+}
+
+.containerAboutUs {
+	color: #393234;
+}
+
+h2 {
+	border-bottom: 3px solid #393234;
+	width: 200px;
+	letter-spacing: 7px;
+	padding: 100px 0px 10px;
+	font-weight: 600 !important;
+	margin-bottom: 50px !important;
+}
+
+.containerAboutUs span {
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: 300px;
+}
+
+.containerAboutUs .image {
+	background-image: url("../image/aboutus1.jpg");
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-size: 1070px 700px;
+	height: 700px;
+	width: 1080px;
+	margin: 80px 40px 30px!important;
+}
+
+.contentAboutUs {
+	height: 420px;
+	width: 700px;
+	background-color: white;
+	margin-left: -15px;
+	padding: 90px 100px!important;
+	float: left;
+}
+
+.contentOurStory, .contentModels{
+	width: 400px !important;
+	height: 200px;
+	background-image: url("../image/ourstory.jpg");
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-size: 400px 200px;
+	float: left;
+	margin: 0px 0px 20px 15px;
+	color: white;
+	padding: 5px;
+}
+
+h4 {
+	border-bottom: 3px solid white;
+	width: 160px;
+	letter-spacing: 3px;
+	padding: 70px 0px 7px;
+}
+
+.contentModels h4 {
+	width: 200px;
+}
+
+.contentContactUs {
+	background-color: white;
+	height: 400px;
+	width: 200px;
+	float: left;
+	margin-left: -15px;
+	margin-right: 25px;
+}
+
+.contentImage {
+	float: left;
+	height: 400px;
+	width: 690px !important;
+	background-image: url("../image/aboutus1.jpg");
+	background-size: 750px ;
+	background-position: cover;
+	background-repeat: no-repeat;
+}
+
+center {
+	margin: 0 auto;
+}
+
+center .fa {
+	margin: 5px 10px!important;
+}
+center p {
+	margin: 0px;
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: lighter;
+}

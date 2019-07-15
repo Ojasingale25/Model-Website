@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Modelling | Models</title>
+		<link rel="stylesheet" href="css\master.css">
+		<link rel="stylesheet" href="css\models.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+
+
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+			  <a class="navbar-brand" href="home.html">Modelling</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item">
+			        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="aboutUs.html">About Us</a>
+			      </li>
+						<li class="nav-item">
+			        <a class="nav-link active" href="models.html">Models</a>
+			      </li>
+						<li class="nav-item">
+			        <a class="nav-link" href="events.html">Events</a>
+			      </li>
+						<li class="nav-item">
+			        <a class="nav-link" href="contactUs.html">Contact Us</a>
+			      </li>
+			    </ul>
+				</div>
+		  </div>
+		</nav>
+		<div class="container-fluid">
+			<div class="container">
+				<h2 style="padding: 50px 0px 10px;">MODEL PORTFOLIO</h2>
+
+				<div id="myBtnContainer">
+				  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+				  <button class="btn" onclick="filterSelection('Male')"> Male</button>
+				  <button class="btn" onclick="filterSelection('Female')"> Female</button>
+				</div>
+
+				<!-- Portfolio Gallery Grid -->
+				<div class="row"  style="">
+				  <div class="column Female">
+				    <div class="content">
+				      <img src="image\model1.jpg" alt="Female" style="width:100%">
+				      <p>Name : Roshni Pathak</p>
+				      <button type="button" name="button" class="btn btn-danger">Browse the profile</button>
+							<a class="btn btn-primary" data-target="#modalIMG1" data-toggle="modal" href="#">View</a>
+				    </div>
+				  </div>
+				  <div class="column Female">
+				    <div class="content">
+				    <img src="image\model2.jpg" alt="Female" style="width:100%">
+						<p>Name : Roshni Pathak</p>
+						<button type="button" name="button" class="btn btn-danger">Browse the profile</button>
+						<a class="btn btn-primary" data-target="#modalIMG2" data-toggle="modal" href="#">View</a>
+				    </div>
+				  </div>
+				  <div class="column Female">
+				    <div class="content">
+				    <img src="image\model3.jpg" alt="Female" style="width:100%">
+						<p>Name : Roshni Pathak</p>
+						<button type="button" name="button" class="btn btn-danger">Browse the profile</button>
+						<a class="btn btn-primary" data-target="#modalIMG3" data-toggle="modal" href="#">View</a>
+				    </div>
+				  </div>
+
+			  <div class="column Male">
+			    <div class="content">
+			      <img src="image\model4.jpg" alt="Male" style="width:100%">
+						<p>Name : Roshni Pathak</p>
+						<button type="button" name="button" class="btn btn-danger">Browse the profile</button>
+						<a class="btn btn-primary" data-target="#modalIMG4" data-toggle="modal" href="#">View</a>
+			    </div>
+			  </div>
+			  <div class="column Male">
+			    <div class="content">
+			    <img src="image\model5.jpg" alt="Male" style="width:100%">
+					<p>Name : Roshni Pathak</p>
+					<button type="button" name="button" class="btn btn-danger">Browse the profile</button>
+					<a class="btn btn-primary" data-target="#modalIMG5" data-toggle="modal" href="#">View</a>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-dark bg-dark">
+		<div class="container col-sm-12">
+			<center class="col-sm-12">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<p>Modelling © Copyright 2019 modelling</p>
+			</center>
+		</div>
+	</nav>
+
+	<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG1" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-md" role="document">
+			<div class="modal-content">
+				<div class="modal-body mb-0 p-12">
+					<img src="image\model1.jpg" alt="" style="height: 550px !important; width: 450px !important; ">
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG2" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-md" role="document">
+			<div class="modal-content">
+				<div class="modal-body mb-0 p-12">
+					<img src="image\model2.jpg" alt="" style="height: 550px !important; width: 450px !important; ">
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG3" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-md" role="document">
+			<div class="modal-content">
+				<div class="modal-body mb-0 p-12">
+					<img src="image\model3.jpg" alt="" style="height: 550px !important; width: 450px !important; ">
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG4" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-md" role="document">
+			<div class="modal-content">
+				<div class="modal-body mb-0 p-12">
+					<img src="image\model4.jpg" alt="" style="height: 550px !important; width: 450px !important; ">
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG5" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-md" role="document">
+			<div class="modal-content">
+				<div class="modal-body mb-0 p-12">
+					<img src="image\model5.jpg" alt="" style="height: 550px !important; width: 450px !important; ">
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		<script>
+		filterSelection("all")
+		function filterSelection(c) {
+		  var x, i;
+		  x = document.getElementsByClassName("column");
+		  if (c == "all") c = "";
+		  for (i = 0; i < x.length; i++) {
+		    RemoveClass(x[i], "show");
+		    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+		  }
+		}
+
+		function AddClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+		    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+		  }
+		}
+
+		function RemoveClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+		    while (arr1.indexOf(arr2[i]) > -1) {
+		      arr1.splice(arr1.indexOf(arr2[i]), 1);
+		    }
+		  }
+		  element.className = arr1.join(" ");
+		}
+
+
+
+		var btnContainer = document.getElementById("myBtnContainer");
+		var btns = btnContainer.getElementsByClassName("btn");
+		for (var i = 0; i < btns.length; i++) {
+		  btns[i].addEventListener("click", function(){
+		    var current = document.getElementsByClassName("active");
+		    current[0].className = current[0].className.replace(" active", "");
+		    this.className += " active";
+		  });
+		}
+		</script>
+
+
+	</body>
+</html>
